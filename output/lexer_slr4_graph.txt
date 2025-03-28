@@ -1,0 +1,15 @@
+AFD Graph Placeholder
+AFN List:
+WS: {'regex': '[ \\t\\n]+'}
+ID: {'regex': '[A-Za-z]([A-Za-z]|(_)*|[0-9])*'}
+NUMBER: {'regex': "[0-9]+(.[0-9]+)?('E'['+''-']?[0-9]+)?"}
+SEMICOLON: {'regex': ';'}
+ASSIGNOP: {'regex': '":="'}
+LT: {'regex': '<'}
+EQ: {'regex': '='}
+PLUS: {'regex': '\\+'}
+MINUS: {'regex': '\\-'}
+TIMES: {'regex': '\\*'}
+DIV: {'regex': '/'}
+LPAREN: {'regex': '\\('}
+RPAREN: {'regex': '\\)'}

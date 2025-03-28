@@ -1,0 +1,8 @@
+AFD Graph Placeholder
+AFN List:
+WS: {'regex': '[ \\t\\n]+'}
+ID: {'regex': '[A-Za-z]([A-Za-z]|[0-9])*'}
+PLUS: {'regex': '\\+'}
+TIMES: {'regex': '\\*'}
+LPAREN: {'regex': '\\('}
+RPAREN: {'regex': '\\)'}

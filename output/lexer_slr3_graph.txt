@@ -1,0 +1,8 @@
+AFD Graph Placeholder
+AFN List:
+WHITESPACE: {'regex': '[ \\t\\n]+'}
+NUMBER: {'regex': '["0123456789"]+(.["0123456789"]+)?(\'E\'[\'+\'\'-\']?["0123456789"]+)?'}
+PLUS: {'regex': '\\+'}
+TIMES: {'regex': '\\*'}
+LPAREN: {'regex': '\\('}
+RPAREN: {'regex': '\\)'}
