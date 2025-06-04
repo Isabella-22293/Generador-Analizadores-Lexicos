@@ -1,0 +1,7 @@
+AFD Graph Placeholder
+AFN List:
+delim: {'regex': "[' ''\\t''\\n']", 'start_state': 'q0', 'states': ['q0', 'q1'], 'transitions': {}, 'final_states': ['q1']}
+ws: {'regex': 'delim+', 'start_state': 'q0', 'states': ['q0', 'q1'], 'transitions': {}, 'final_states': ['q1']}
+letter: {'regex': "['A'-'Z''a'-'z']", 'start_state': 'q0', 'states': ['q0', 'q1'], 'transitions': {}, 'final_states': ['q1']}
+digit: {'regex': "['0'-'9']", 'start_state': 'q0', 'states': ['q0', 'q1'], 'transitions': {}, 'final_states': ['q1']}
+id: {'regex': 'letter(letter|digit)*', 'start_state': 'q0', 'states': ['q0', 'q1'], 'transitions': {}, 'final_states': ['q1']}
